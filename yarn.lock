@@ -2241,9 +2241,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/request@npm:^3.0.0":
-  version: 3.0.1
-  resolution: "@cypress/request@npm:3.0.1"
+"@cypress/request@npm:^2.88.10":
+  version: 2.88.12
+  resolution: "@cypress/request@npm:2.88.12"
   dependencies:
     aws-sign2: "npm:~0.7.0"
     aws4: "npm:^1.8.0"
@@ -2258,12 +2258,12 @@ __metadata:
     json-stringify-safe: "npm:~5.0.1"
     mime-types: "npm:~2.1.19"
     performance-now: "npm:^2.1.0"
-    qs: "npm:6.10.4"
+    qs: "npm:~6.10.3"
     safe-buffer: "npm:^5.1.2"
     tough-cookie: "npm:^4.1.3"
     tunnel-agent: "npm:^0.6.0"
     uuid: "npm:^8.3.2"
-  checksum: 10c0/8eb92a665e6549e2533f5169431addcaad0307f51a8c7f3b6b169eb79b4d673373784a527590a47b0a2905ad5f601b24ab2d1b31d184243235aba470ffc9c1f7
+  checksum: 10c0/815d56db900d63479a7385f1f76d583f1fea6181499ed8abd54aec477423b03202e1155389e0035c3ec29852a0cce39c21629f358b604f604d4653b6d0ce9d52
   languageName: node
   linkType: hard
 
@@ -4772,15 +4772,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/cypress@npm:^8.0.3":
-  version: 8.0.7
-  resolution: "@testing-library/cypress@npm:8.0.7"
+"@testing-library/cypress@npm:^10.0.2":
+  version: 10.0.2
+  resolution: "@testing-library/cypress@npm:10.0.2"
   dependencies:
     "@babel/runtime": "npm:^7.14.6"
-    "@testing-library/dom": "npm:^8.1.0"
+    "@testing-library/dom": "npm:^10.1.0"
   peerDependencies:
-    cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0
-  checksum: 10c0/951a38a1adea52726a6da3b2b2ab0e882a1302b23d8b89b4fe84fe546dfe43291cbd75b20e52be65db93f5a3f09ea72d99048b10b4341e82cb43b3200064678d
+    cypress: ^12.0.0 || ^13.0.0
+  checksum: 10c0/c8305bcdceb1b0a8b6abcb23374ba670f6ddacd6416144a422efd7bdee901af39497f2e0f773b546db5e317776c786fbe4776607da3cbe1d1f42433bce240ca9
+  languageName: node
+  linkType: hard
+
+"@testing-library/dom@npm:^10.1.0":
+  version: 10.4.0
+  resolution: "@testing-library/dom@npm:10.4.0"
+  dependencies:
+    "@babel/code-frame": "npm:^7.10.4"
+    "@babel/runtime": "npm:^7.12.5"
+    "@types/aria-query": "npm:^5.0.1"
+    aria-query: "npm:5.3.0"
+    chalk: "npm:^4.1.0"
+    dom-accessibility-api: "npm:^0.5.9"
+    lz-string: "npm:^1.5.0"
+    pretty-format: "npm:^27.0.2"
+  checksum: 10c0/0352487720ecd433400671e773df0b84b8268fb3fe8e527cdfd7c11b1365b398b4e0eddba6e7e0c85e8d615f48257753283fccec41f6b986fd6c85f15eb5f84f
   languageName: node
   linkType: hard
 
@@ -4800,7 +4816,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/dom@npm:^8.1.0, @testing-library/dom@npm:^8.20.1":
+"@testing-library/dom@npm:^8.20.1":
   version: 8.20.1
   resolution: "@testing-library/dom@npm:8.20.1"
   dependencies:
@@ -5186,6 +5202,13 @@ __metadata:
   version: 16.18.3
   resolution: "@types/node@npm:16.18.3"
   checksum: 10c0/058ddd61a3d39f517bc9c30b82b9d6257d903e84c42ba66aae63bd13203b6deb2acf7f7e14caefd5d7cebadbe8c90604c04f9851cd41cd6a1bc2fc4dcec85f01
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^14.14.31":
+  version: 14.18.63
+  resolution: "@types/node@npm:14.18.63"
+  checksum: 10c0/626a371419a6a0e11ca460b22bb4894abe5d75c303739588bc96267e380aa8b90ba5a87bc552400584f0ac2a84b5c458dadcbcf0dfd2396ebeb765f7a7f95893
   languageName: node
   linkType: hard
 
@@ -6329,6 +6352,15 @@ __metadata:
   dependencies:
     deep-equal: "npm:^2.0.5"
   checksum: 10c0/edcbc8044c4663d6f88f785e983e6784f98cb62b4ba1e9dd8d61b725d0203e4cfca38d676aee984c31f354103461102a3d583aa4fbe4fd0a89b679744f4e5faf
+  languageName: node
+  linkType: hard
+
+"aria-query@npm:5.3.0":
+  version: 5.3.0
+  resolution: "aria-query@npm:5.3.0"
+  dependencies:
+    dequal: "npm:^2.0.3"
+  checksum: 10c0/2bff0d4eba5852a9dd578ecf47eaef0e82cc52569b48469b0aac2db5145db0b17b7a58d9e01237706d1e14b7a1b0ac9b78e9c97027ad97679dd8f91b85da1469
   languageName: node
   linkType: hard
 
@@ -7485,7 +7517,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buffer@npm:^5.7.1":
+"buffer@npm:^5.6.0":
   version: 5.7.1
   resolution: "buffer@npm:5.7.1"
   dependencies:
@@ -7713,7 +7745,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"canvas@npm:^2.11.0":
+"canvas@npm:^2.11.2":
   version: 2.11.2
   resolution: "canvas@npm:2.11.2"
   dependencies:
@@ -8238,6 +8270,13 @@ __metadata:
   version: 4.1.1
   resolution: "commander@npm:4.1.1"
   checksum: 10c0/84a76c08fe6cc08c9c93f62ac573d2907d8e79138999312c92d4155bc2325d487d64d13f669b2000c9f8caf70493c1be2dac74fec3c51d5a04f8bc3ae1830bab
+  languageName: node
+  linkType: hard
+
+"commander@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "commander@npm:5.1.0"
+  checksum: 10c0/da9d71dbe4ce039faf1fe9eac3771dca8c11d66963341f62602f7b66e36d2a3f8883407af4f9a37b1db1a55c59c0c1325f186425764c2e963dc1d67aec2a4b6d
   languageName: node
   linkType: hard
 
@@ -8876,27 +8915,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:^13.7.2":
-  version: 13.7.2
-  resolution: "cypress@npm:13.7.2"
+"cypress@npm:11.0.0":
+  version: 11.0.0
+  resolution: "cypress@npm:11.0.0"
   dependencies:
-    "@cypress/request": "npm:^3.0.0"
+    "@cypress/request": "npm:^2.88.10"
     "@cypress/xvfb": "npm:^1.2.4"
+    "@types/node": "npm:^14.14.31"
     "@types/sinonjs__fake-timers": "npm:8.1.1"
     "@types/sizzle": "npm:^2.3.2"
     arch: "npm:^2.2.0"
     blob-util: "npm:^2.0.2"
     bluebird: "npm:^3.7.2"
-    buffer: "npm:^5.7.1"
+    buffer: "npm:^5.6.0"
     cachedir: "npm:^2.3.0"
     chalk: "npm:^4.1.0"
     check-more-types: "npm:^2.24.0"
     cli-cursor: "npm:^3.1.0"
     cli-table3: "npm:~0.6.1"
-    commander: "npm:^6.2.1"
+    commander: "npm:^5.1.0"
     common-tags: "npm:^1.8.0"
     dayjs: "npm:^1.10.4"
-    debug: "npm:^4.3.4"
+    debug: "npm:^4.3.2"
     enquirer: "npm:^2.3.6"
     eventemitter2: "npm:6.4.7"
     execa: "npm:4.1.0"
@@ -8905,26 +8945,25 @@ __metadata:
     figures: "npm:^3.2.0"
     fs-extra: "npm:^9.1.0"
     getos: "npm:^3.2.1"
-    is-ci: "npm:^3.0.1"
+    is-ci: "npm:^3.0.0"
     is-installed-globally: "npm:~0.4.0"
     lazy-ass: "npm:^1.6.0"
     listr2: "npm:^3.8.3"
     lodash: "npm:^4.17.21"
     log-symbols: "npm:^4.0.0"
-    minimist: "npm:^1.2.8"
+    minimist: "npm:^1.2.6"
     ospath: "npm:^1.2.2"
     pretty-bytes: "npm:^5.6.0"
-    process: "npm:^0.11.10"
     proxy-from-env: "npm:1.0.0"
     request-progress: "npm:^3.0.0"
-    semver: "npm:^7.5.3"
+    semver: "npm:^7.3.2"
     supports-color: "npm:^8.1.1"
     tmp: "npm:~0.2.1"
     untildify: "npm:^4.0.0"
     yauzl: "npm:^2.10.0"
   bin:
     cypress: bin/cypress
-  checksum: 10c0/8003d13fe0a551c119e6760d5895d457f6306cb36f0f2db55794bbc83ca19fb19d1e90b392babde71a305cbaa7ce440c5bd4c6c742ac148f72381d71e6093397
+  checksum: 10c0/689b3a02b862badbf889c68e693de8ecaa299a09f66c2d2068061ace66efbda0ed61b43b2f40aeb30fd3aca6cb4c5a6943d98a213b0cfe9cc1df46325cb4e1c8
   languageName: node
   linkType: hard
 
@@ -9237,7 +9276,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dequal@npm:^2.0.2":
+"dequal@npm:^2.0.2, dequal@npm:^2.0.3":
   version: 2.0.3
   resolution: "dequal@npm:2.0.3"
   checksum: 10c0/f98860cdf58b64991ae10205137c0e97d384c3a4edc7f807603887b7c4b850af1224a33d88012009f150861cbee4fa2d322c4cc04b9313bee312e47f6ecaa888
@@ -9339,7 +9378,7 @@ __metadata:
     "@storybook/builder-webpack5": "npm:^6.5.16"
     "@storybook/manager-webpack5": "npm:^6.5.16"
     "@storybook/preact": "npm:^6.5.16"
-    "@testing-library/cypress": "npm:^8.0.3"
+    "@testing-library/cypress": "npm:^10.0.2"
     "@testing-library/dom": "npm:^8.20.1"
     "@testing-library/jest-dom": "npm:^5.17.0"
     "@testing-library/preact": "npm:^2.0.1"
@@ -9354,13 +9393,13 @@ __metadata:
     babel-plugin-inline-react-svg: "npm:^2.0.2"
     babel-plugin-module-resolver: "npm:^5.0.2"
     babel-preset-preact: "npm:^2.0.0"
-    canvas: "npm:^2.11.0"
+    canvas: "npm:^2.11.2"
     chart.js: "npm:^3.9.1"
     classnames: "npm:^2.5.1"
     core-js: "npm:3"
     css-loader: "npm:^5.2.7"
     cssom: "npm:^0.5.0"
-    cypress: "npm:^13.7.2"
+    cypress: "npm:11.0.0"
     cypress-failed-log: "npm:^2.10.0"
     cypress-file-upload: "npm:^5.0.8"
     cypress-multi-reporters: "npm:^1.6.4"
@@ -13002,7 +13041,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-ci@npm:^3.0.1":
+"is-ci@npm:^3.0.0":
   version: 3.0.1
   resolution: "is-ci@npm:3.0.1"
   dependencies:
@@ -15680,7 +15719,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.1.1, minimist@npm:^1.1.3, minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.6, minimist@npm:^1.2.8":
+"minimist@npm:^1.1.1, minimist@npm:^1.1.3, minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.6":
   version: 1.2.8
   resolution: "minimist@npm:1.2.8"
   checksum: 10c0/19d3fcdca050087b84c2029841a093691a91259a47def2f18222f41e7645a0b7c44ef4b40e88a1e58a40c84d2ef0ee6047c55594d298146d0eb3f6b737c20ce6
@@ -18069,21 +18108,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qs@npm:6.10.4":
-  version: 6.10.4
-  resolution: "qs@npm:6.10.4"
-  dependencies:
-    side-channel: "npm:^1.0.4"
-  checksum: 10c0/7a8c9d77968aeccb769aedd7e047c0e0109dad0cfa57cab1ad906f4069fd58f361b80abd2de5854ba9a09b4c5d06d6a2c82108766f1f1527572fe6130deaa471
-  languageName: node
-  linkType: hard
-
 "qs@npm:6.11.0, qs@npm:^6.10.0":
   version: 6.11.0
   resolution: "qs@npm:6.11.0"
   dependencies:
     side-channel: "npm:^1.0.4"
   checksum: 10c0/4e4875e4d7c7c31c233d07a448e7e4650f456178b9dd3766b7cfa13158fdb24ecb8c4f059fa91e820dc6ab9f2d243721d071c9c0378892dcdad86e9e9a27c68f
+  languageName: node
+  linkType: hard
+
+"qs@npm:~6.10.3":
+  version: 6.10.4
+  resolution: "qs@npm:6.10.4"
+  dependencies:
+    side-channel: "npm:^1.0.4"
+  checksum: 10c0/7a8c9d77968aeccb769aedd7e047c0e0109dad0cfa57cab1ad906f4069fd58f361b80abd2de5854ba9a09b4c5d06d6a2c82108766f1f1527572fe6130deaa471
   languageName: node
   linkType: hard
 
@@ -19429,7 +19468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.3":
+"semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7":
   version: 7.5.4
   resolution: "semver@npm:7.5.4"
   dependencies:
