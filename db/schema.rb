@@ -1310,7 +1310,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_09_09_155030) do
     t.datetime "last_article_at", precision: nil, default: "2017-01-01 05:00:00"
     t.datetime "last_comment_at", precision: nil, default: "2017-01-01 05:00:00"
     t.datetime "last_followed_at", precision: nil
-    t.datetime "last_moderation_notification", precision: nil, default: "2016-12-31 18:30:00"
+    t.datetime "last_moderation_notification", precision: nil, default: "2017-01-01 05:00:00"
     t.datetime "last_notification_activity", precision: nil
     t.string "last_onboarding_page"
     t.datetime "last_reacted_at", precision: nil
